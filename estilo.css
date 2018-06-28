@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+body {
+	padding-top: 20px;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #006400, #FFFFFF);
+    background-repeat: no-repeat;
+    background-size:100%;
+    color: #FFFFFF;
+}
+
+h2 h4{
+	font-weight: bold;
+}
+h2{
+	text-align: center;
+}
+
+.table > thead > tr{
+	background-color: #F5F5F5;
+}
+.table-hover > tbody > tr:hover{
+	background-color: #006400;
+	color: #FFFAFA;
+}
+.well{
+	margin-top: 
+	background-color: #FFFFFF; 
+}
+.glyphicon-user{
+	background-color: #ccc;
+	border-radius: 50%;
+}
+.form-control:focus{
+	border-color: #006400;
+}

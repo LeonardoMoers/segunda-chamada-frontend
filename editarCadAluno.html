@@ -1,0 +1,97 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Editar Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10"></div>
+			<div class="col-lg-2">
+				<input type="button" class="btn btn-success btn-sm" name="inicio" value="Inicio">
+				<input type="button" class="btn btn-danger btn-sm" name="sair" value="Sair">
+			</div>
+		</div>
+		
+		<div class="well">
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-4">
+					<h2>Editar Cadastro</h2>
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3" style="text-align: center;">
+					<form>
+						<div class="form-group">
+						<input type="text" name="Nome" placeholder="Nome" class="form-control" required>
+						</div>
+						<div class="form-group">
+						<input type="email" name="email" placeholder="email" class="form-control" required>
+						</div>
+						<div class="form-group">
+						<input type="email" name="conf_email" placeholder="conf_email" class="form-control" required>
+						</div>
+						<div class="form-group">
+						<input type="password" name="password" placeholder="senha" class="form-control" required>
+						</div>
+						<div class="form-group">
+						<input type="password" name="conf_password" placeholder="conf_senha" class="form-control" required>
+						</div>
+						<div class="form-group">
+						<input type="text" name="contato" placeholder="contato" class="form-control">
+						</div required>
+						<div class="form-group">
+						<input type="text" name="matricula" placeholder="matricula" class="form-control">
+						</div required>
+						
+						<div class="form-group">
+						<select name="materia" class="form-control" required>
+							<option value="">Curso</option>
+							<option value="1">Bacharelado em Sistemas de Informação</option>
+							<option value="2">Bacharelado em Agronomia</option>
+							<option value="3">Bacharelado em Medicina Veterinária</option>
+							<option value="4">Licenciatura em Ciências Agrícolas</option>
+							<option value="5">Licenciatura em Química</option>
+							<option value="6">Tecnologia em Redes de Computadores</option>
+						</select>
+						</div>
+						<div class="form-group">
+						<select name="materia" class="form-control" required>
+							<option value="">Periodo</option>
+							<option value="1">Periodo 1</option>
+							<option value="2">Periodo 2</option>
+							<option value="3">Periodo 3</option>
+							<option value="4">Periodo 4</option>
+							<option value="5">Periodo 5</option>
+							<option value="6">Periodo 6</option>
+							<option value="7">Periodo 7</option>
+							<option value="8">Periodo 8</option>
+						</select>
+						</div>
+
+						<div class="col-lg-9"></div>
+						<div class="col-lg-3">
+								<input type="submit" name="cad_aluno" class="btn btn-success" >
+						</div>
+					</form>
+				</div>
+				
+			</div>
+
+				
+				
+
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
