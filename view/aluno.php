@@ -53,10 +53,10 @@
 			</div>
 		</article>
 		<div class="row">
-		<div class="col-12 mt-3 mb-0">
-			<hr>
+			<div class="col-12 mt-3 mb-0">
+				<hr>
+			</div>
 		</div>
-	</div>
 	</section>
 
 	<section class="container mt-2 pt-1 pb-3">
