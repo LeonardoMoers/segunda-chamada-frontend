@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cadastro</title>
+	<title>Segunda Chamada - Cadastro</title>
 	<?php include '../template/header.html'; ?>
 </head>
 <body>
@@ -15,11 +15,11 @@
 	<section class="container">
 		
 		<header class="text-center mt-4 mb-4">
-			<h1>Cadastro</h1>
+			<h2>CADASTRO</h2>
 		</header>
 
 		<div class="row justify-content-center">
-		<article class="col-sm-12 col-md-10 col-lg-6 jumbotron">
+		<article class="col-sm-12 col-md-10 col-lg-6 jumbotron pt-4 pb-4">
 
 			<form class="" onsubmit="validateForm()">
 				<div class="form-group">
@@ -48,8 +48,14 @@
 					<input type="text" name="token" placeholder="Token" class="form-control">
 				</div required>
 
+				<div class="row mt-5 text-center">
+					<div class="col-12">
+						<input type="submit" name="inputCadastro" class="btn btn-success btn-lg" value="CADASTRAR">
+					</div>
 
-				<input type="submit" name="cad_aluno" class="btn btn-success" >
+				</div>
+				
+
 			</form>
 		</article>
 		</div>
