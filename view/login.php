@@ -8,6 +8,7 @@
 	<header class="text-center text-light pt-5 mt-4 mb-4">
 		<h1>Segunda Chamada</h1>
 	</header>
+<<<<<<< Updated upstream
 	<body>
 		<div class="justify-content-center pt-3 mt-4">
 			<section class="pl-4 pr-4 shadow container jumbotron-fluid align-middle p-2 mb-2 bg-light text-dark col-sm-8">
@@ -37,6 +38,29 @@
 			</section>
 		</div>
 		<footer>
+=======
+	<section class="container">
+			<header>
+				<h1>Segunda Chamada</h1>
+			</header>
+			<article class="col-md-4 ">
+				<form class="responsive">
+					<div class="form-group">
+						<label for="nomeLogin">Nome</label>
+						<input type="text" name="Nome" placeholder="Nome" class="form-control" required>
+					</div>
+
+					<div class="form-group">
+						<label for="senhaLogin">Senha</label>
+
+						<input type="password" name="password" placeholder="Senha" class="form-control" required>
+					</div>
+					<input type="submit" name="submit" class="btn btn-success" >
+				</form>
+			</article>
+	</section>
+	<footer>
+>>>>>>> Stashed changes
 
 		</footer>
 	</body>

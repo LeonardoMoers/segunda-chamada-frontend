@@ -8,10 +8,6 @@
 	<header>
 
 	</header>
-
-	<!-- Menu -->
-	<!-- Menu -->
-
 	<section class="container">
 		
 		<header class="text-center mt-4 mb-4">
