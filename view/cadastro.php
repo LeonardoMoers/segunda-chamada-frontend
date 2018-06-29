@@ -8,6 +8,12 @@
 	<header>
 
 	</header>
+	<div class="alert alert-danger mt-3" role="alert">
+        Falha ao realizar o cadastro.
+    </div>
+    <div class="alert alert-success" role="alert">
+        Cadastro realizado com sucesso.
+    </div>
 	<section class="container">
 		
 		<header class="text-center mt-4 mb-4">
@@ -44,7 +50,7 @@
 
 				<div class="row mt-5 text-center">
 					<div class="col-12">
-						<input type="submit" name="inputCadastro" class="btn btn-success btn-lg" value="CADASTRAR">
+						<input type="submit" name="inputCadastro" class="btn btn-success btn-lg" value="cadastrar">
 					</div>
 
 				</div>
@@ -55,4 +61,6 @@
 		</div>
 	</section>
 </body>
+<br />
+<br />
 </html>
