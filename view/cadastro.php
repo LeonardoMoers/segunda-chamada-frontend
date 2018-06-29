@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Segunda Chamada - Cadastro</title>
+	<title>Cadastro - Usuário</title>
 	<?php include '../template/header.html'; ?>
 </head>
 <body>

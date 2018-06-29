@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Segunda Chamada - Entrar</title>
+	<title>Login</title>
 	<?php include '../template/header.html'; ?>
 </head>
 <div class="container pt-5 mt-5">
