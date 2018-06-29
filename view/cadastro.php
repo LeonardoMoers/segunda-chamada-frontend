@@ -19,14 +19,12 @@
 		</header>
 
 		<div class="row justify-content-center">
-		<article class="col-sm-12 col-md-10 col-lg-6 jumbotron pt-4 pb-4">
-
-			<form class="" onsubmit="validateForm()">
+		<article class="shadow col-sm-12 col-md-10 col-lg-6 container bg-light align-middle jumbotron-fluid pt-4 pb-4">
+			<form class="container col-11">
 				<div class="form-group">
 					<label for="inputNome">Insira o nome</label>
 					<input type="text" name="Nome" placeholder="Nome" class="form-control" required>
 				</div>
-
 				<div class="form-group">
 					<label for="inputNome">Insira o nome</label>
 					<input type="email" name="email" placeholder="E-mail" class="form-control" required>
