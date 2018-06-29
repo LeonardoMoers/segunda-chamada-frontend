@@ -8,30 +8,15 @@ body {
     background: linear-gradient(to bottom, #006400, #FFFFFF);
     background-repeat: no-repeat;
     background-size:100%;
-    color: #FFFFFF;
 }
 
-h2 h4{
-	font-weight: bold;
-}
 h2{
-	text-align: center;
+	color: #FFFFFF;
 }
 
-.table > thead > tr{
-	background-color: #F5F5F5;
-}
-.table-hover > tbody > tr:hover{
-	background-color: #006400;
-	color: #FFFAFA;
-}
-.well{
-	margin-top: 
-	background-color: #FFFFFF; 
-}
-.glyphicon-user{
-	background-color: #ccc;
-	border-radius: 50%;
+label{
+	color: #006400;
+	font-size: 18px;
 }
 .form-control:focus{
 	border-color: #006400;
