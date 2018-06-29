@@ -71,12 +71,34 @@
 							<tr>
 								<th>Status</th>
 								<th>Professor</th>
-								<th>Prova</th>
+								<th>Avaliação</th>
 								<th>Data</th>
 								<th>local</th>
 							</tr>
 						</thead>
 						<!-- Table body -->
+							<tbody>
+								<tr>
+									<td>Recusado</td>
+									<td> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> John Boo
+									</td>
+									<td>Estrutura II</td>
+								</tr>
+								<tr>
+									<td>Pendente</td>
+									<td> <span class="glyphicon glyphicon-user" aria-hidden="true"> </span> Michael Robinson
+									</td>
+									<td>WEB I</td>
+								</tr>
+								<tr>
+									<td>Aprovado</td>
+									<td> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Alexander Robson
+									</td>
+									<td>Banco de Dados</td>
+									<td>30/10/2018</td>
+									<td>Sala B03</td>
+								</tr>
+							</tbody>
 					</table>
 				</div>
 			</div>
@@ -85,7 +107,7 @@
 
 	<footer>
 
-
+	<?php include '../template/footer.html' ?>
 	</footer>
 
 </body>
