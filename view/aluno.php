@@ -51,7 +51,7 @@
 							<input type="text" class="form-control" name="inputAvaliacao" placeholder="Avaliação" required>
 						</div>
 						<div class="form-group col-12 text-center mt-4">
-							<button type="submit" class="btn btn-success">ENVIAR</button>	
+							<button type="submit" class="btn btn-success btn-md">ENVIAR</button>	
 						</div>
 
 					</div>
@@ -90,25 +90,25 @@
 						<th>
 							<img src="../submit.png" style="height: 30px">
 						</th>
-						<th>Pendente</th>
+						<td>Pendente</td>
 					</tr>
 					<tr>
 						<th>
 							<img src="../check.png" style="height: 30px">
 						</th>
-						<th>Confirmado pelo cordenador</th>
+						<td>Confirmado pelo cordenador</td>
 					</tr>
 					<tr>
 						<th>
 							<img src="../2check.png" style="height: 30px">
 						</th>
-						<th>Confirmado por ambos</th>
+						<td>Confirmado por ambos</td>
 					</tr>
 					<tr>
 						<th>
 							<img src="../closed.png" style="height: 30px">
 						</th>
-						<th>Recusado</th>
+						<td>Recusado</td>
 					</tr>				
 				</tbody>
 			</table>

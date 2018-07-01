@@ -14,15 +14,16 @@
     <div class="alert alert-success" role="alert">
         Cadastro realizado com sucesso.
     </div>
-
-	<section class="container">
-		<header class="text-center mt-4 mb-4">
-			<h2>Cadastro de Semestre</h2>
+	
+	<section class="container jumbotron-fluid bg-light shadow p-3 mt-4">
+		<header class="row justify-content-center mt-3 mb-3">
+			<div class="col-auto">
+				<h2 id="login">Cadastrar Semestre</h2>
+			</div>
 		</header>
-
-		<div class="row justify-content-center">
-		<article class="shadow col-sm-12 col-md-10 col-lg-6 container bg-light align-middle jumbotron-fluid pt-4 pb-4">
-			<form class="container col-11">
+		<article class="row justify-content-center ml-0 mr-0">
+			<div class="col-sm-12 col-md-10 col-lg-8">
+				<form>
 				<div class="form-group">
 					<label for="inputNome">Insira o semestre</label>
 					<input type="text" name="Nome" placeholder="Nome" class="form-control" required>
@@ -31,32 +32,38 @@
 					<div class="col-12">
 						<input type="submit" name="inputCadastro" class="btn btn-success" value="CADASTRAR">
 					</div>
-				</div>
-			</form>
+				</form>
+			</div>
 		</article>
+	</section>
+
+    <div class="container mt-4">
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<hr>
+			</div>
 		</div>
-    </section>
-    <br />
-	<div>
-		<hr class="shadow">
 	</div>
-	<br /> 
-        <article class="shadow col-sm-12 col-md-10 col-lg-6 container bg-light align-middle jumbotron-fluid pt-4 pb-4">
-            <header class="text-center mt-4 mb-4">
-                <h2 id="login">Semestres cadastrados</h2>
-            </header>
-			<table class="table table-striped mt-5">
+
+	<section class="container jumbotron-fluid bg-light shadow p-3 mt-4">
+		<header class="row justify-content-center mt-3 mb-3">
+			<div class="col-auto">
+				<h2 id="login">Semestres Cadastrados</h2>
+			</div>
+		</header>
+		<article class="row justify-content-center ml-0 mr-0">
+			<table class="table table-hover shadow mt-2 text-center">
 				<thead>
 					<tr>
 						<th scope"col">#</th>
 						<th scope"col">Semestre</th>
-						<th scope"col">Materia</th>
 					</tr>
 				</thead>
-				<tbody>					
+				<tbody>
 				</tbody>
 			</table>
         </article>
+	</section>
 
 	<footer>
 		<?php include '../template/footer.html' ?>
