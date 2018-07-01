@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
 	<title>Cadastro - Usuário</title>
 	<?php include '../template/header.html'; ?>
@@ -17,7 +16,7 @@
 	<section class="container">
 		
 		<header class="text-center mt-4 mb-4">
-			<h2>CADASTRO</h2>
+			<h2>Cadastro de usuário</h2>
 		</header>
 
 		<div class="row justify-content-center">
@@ -50,12 +49,9 @@
 
 				<div class="row mt-5 text-center">
 					<div class="col-12">
-						<input type="submit" name="inputCadastro" class="btn btn-success btn-lg" value="cadastrar">
+						<input type="submit" name="inputCadastro" class="btn btn-success btn-lg float-right" value="cadastrar">
 					</div>
-
 				</div>
-				
-
 			</form>
 		</article>
 		</div>

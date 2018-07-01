@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
 <head>
 	<title>Login</title>
 	<?php include '../template/header.html'; ?>
 </head>
 <body>
 
-<div class="container pt-2">
-	<header class="text-center text-light pt-5 mt-4 mb-4">
+<div class="alert alert-danger mt-3" role="alert">
+	Falha ao efetuar login.
+</div>
+
+<div class="container mt-5 pt-2">
+	<header class="text-center text-light pt-5 mt-5 mb-5">
 		<h1>SSC - Sistema de Segunda Chamada</h1>
 	</header>
-		<div class="justify-content-center pt-3 mt-4">
+		<div class="justify-content-center pt-3 mt-5">
 			<section class="pl-4 pr-4 shadow container jumbotron-fluid align-middle p-2 mb-2 bg-light text-dark col-sm-6">
 				<header class="text-center mt-3 mb-3">
 					<h2 class="text-dark">Login</h2>

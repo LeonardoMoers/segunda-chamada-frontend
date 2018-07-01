@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
 	<title>Página do Aluno</title>
 	<?php include '../template/menu.html' ?>
@@ -19,11 +18,13 @@
 	<!-- Menu -->
 	<!-- Menu -->
 
-	<section class="container mt-2 pt-3 pb-3">
-		<header class="row mt-2 mb-4 justify-content-center">
-			<h2>Formulário de Segunda Chamada</h2>
+	<section class="container jumbotron-fluid bg-light shadow p-3 mt-4">
+		<header class="row justify-content-center mt-3 mb-3">
+			<div class="col-auto">
+				<h2 id="login">Cadastrar Requisição</h2>
+			</div>
 		</header>
-		<article class="row shadow justify-content-center bg-light align-middle jumbotron-fluid pt-5">
+		<article class="row justify-content-center ml-0 mr-0">
 			<div class="col-sm-12 col-md-10 col-lg-8">
 				<form>
 					<div class="form-row">
@@ -49,29 +50,32 @@
 							<label for="inputAvaliacao">Informe a avaliação perdida</label>
 							<input type="text" class="form-control" name="inputAvaliacao" placeholder="Avaliação" required>
 						</div>
-
 						<div class="form-group col-12 text-center mt-4">
 							<button type="submit" class="btn btn-success">ENVIAR</button>	
 						</div>
 
 					</div>
 				</form>
-				<br />
 			</div>
 		</article>
 	</section>
-	<div class="row">
-		<div class="col-12 mt-3 mb-0">
-			<hr>
+
+	<div class="container mt-4">
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<hr>
+			</div>
 		</div>
 	</div>
 
-	<section class="container mt-2 pt-1 pb-3">
-		<header id="form-chamada-aluno" class="row justify-content-center mb-4">
-			<h2>Requisições</h2>
+	<section class="container jumbotron-fluid bg-light shadow p-3 mt-4">
+		<header class="row justify-content-center mt-3 mb-3">
+			<div class="col-auto">
+				<h2 id="login">Requisições</h2>
+			</div>
 		</header>
-		<article class="col-sm-12 col-md-10 col-lg-6 container bg-light align-middle jumbotron-fluid pt-4 pb-4">
-			<table class="table table-hover shadow mt-5">
+		<article class="row justify-content-center ml-0 mr-0">
+			<table class="table table-hover shadow mt-2 text-center">
 				<thead>
 					<tr>
 						<th scope"col">Status</th>
@@ -81,7 +85,31 @@
 						<th scope"col">Local</th>
 					</tr>
 				</thead>
-				<tbody>					
+				<tbody>
+					<tr>
+						<th>
+							<img src="../submit.png" style="height: 30px">
+						</th>
+						<th>Pendente</th>
+					</tr>
+					<tr>
+						<th>
+							<img src="../check.png" style="height: 30px">
+						</th>
+						<th>Confirmado pelo cordenador</th>
+					</tr>
+					<tr>
+						<th>
+							<img src="../2check.png" style="height: 30px">
+						</th>
+						<th>Confirmado por ambos</th>
+					</tr>
+					<tr>
+						<th>
+							<img src="../closed.png" style="height: 30px">
+						</th>
+						<th>Recusado</th>
+					</tr>				
 				</tbody>
 			</table>
         </article>
