@@ -15,9 +15,6 @@
         Cadastro realizado com sucesso.
     </div>
 
-	<!-- Menu -->
-	<!-- Menu -->
-
 	<section class="container jumbotron-fluid bg-light shadow p-3 mt-4">
 		<header class="row justify-content-center mt-3 mb-3">
 			<div class="col-auto">
