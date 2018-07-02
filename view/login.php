@@ -1,44 +1,49 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<title>Login</title>
-	<?php include '../template/header.html'; ?>
+	<?php include '../template/header.html' ?>
 </head>
 <body>
 
-<div class="alert alert-danger mt-3" role="alert">
-	Falha ao efetuar login.
-</div>
+	<div class="alert alert-danger" role="alert">
+		Falha ao efetuar login.
+	</div>
 
-<div class="container mt-5 pt-2">
-	<header class="text-center text-light pt-5 mt-5 mb-5">
-		<h1>SSC - Sistema de Segunda Chamada</h1>
-	</header>
-		<div class="justify-content-center pt-3 mt-5">
-			<section class="pl-4 pr-4 shadow container jumbotron-fluid align-middle p-2 mb-2 bg-light text-dark col-sm-6">
-				<header class="text-center mt-3 mb-3">
-					<h2 class="text-dark">Login</h2>
-				</header>
-				<article class="pt-3 article col-sm-12">
-					<form class="responsive">
-						 <div class="form-group row">
-    						<div class="col-sm-12">
-      							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    						</div>
-  						</div>
-  						<div class="pt-3 form-group row">
-    						<div class="col-sm-12">
-      							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-    						</div>
-  						</div>
-						<div class=" row justify-content-center">
-							<a href="cadastro.php" role="button" class="mt-3 mb-2 mr-5 btn btn-danger text-light text-center col-sm-3">Cadastro</a>
-							<input type="submit" name="submit" class="mt-3 mb-2 ml-5 btn btn-success col-sm-3">
-						</div>
-					</form>
-				</article>
-			</section>
+
+	<header class="container">
+		<div class="row text-center mt-3">
+			<div class="col">
+				<h1 class="text-light"> SSC - Sistema de Segunda Chamada</h1>
+			</div>
 		</div>
+	</header>
 
-	</body>
-</div>
+	<section class="container jumbotron-fluid bg-light shadow ">
+		
+		<header class="row justify-content-center mt-3">
+			<h2 id="login" class="mt-5">LOGIN</h2>
+		</header>
+
+		<article class="row justify-content-center">
+			<div class="col-auto col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<form>
+					<div class="form-group">
+						<input type="text" name="inputLogin" class="form-control" placeholder="Usuário">
+					</div>
+					<div class="form-group">
+						<input type="password" name="inputPassword" class="form-control" placeholder="Senha">
+					</div>
+					<div class="form-row justify-content-center mb-5">
+						<a href="cadastro.php" class="btn btn-danger mr-lg-3 mr-md-2 mr-sm-2">Cadastro</a>
+						<button type="submit" class="btn btn-success">Entrar</button>
+					</div>	
+
+				</form>
+			</div>
+		</article>
+
+	</section>
+
+</body>
 </html>
