@@ -4,6 +4,7 @@ html {
 body {
     height: 100%;
     margin: 0;
+    padding: 0;
     background: linear-gradient(to bottom, #006400, #FFFFFF);
     background-repeat: no-repeat;
     background-size:100%;
@@ -28,4 +29,8 @@ label{
 }
 .form-control:focus{
 	border-color: #006400;
+}
+
+.footer{
+    padding: 15px;
 }

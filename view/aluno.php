@@ -27,12 +27,12 @@
 					<div class="form-row">
 						<div class="form-group col-sm-6">
 							<label for="inputMotivo">Descreva o motivo da ausência</label>
-							<input type="text" class="form-control" name="inputMotivo" placeholder="Motivo" required>
+							<input type="text" class="form-control" name="inputMotivo" placeholder="Motivo" required="required" required pattern="[^0-9]+$" maxlength="120" minlength="3" title="Somente caracteres">
 						</div>
 
 						<div class="form-group col-sm-6">
 							<label for="inputMateria">Selecione a matéria</label>
-							<select name="inputMateria" class="form-control">
+							<select name="inputMateria" class="form-control" required="required">
 								<option selected>Matérias</option>
 								<option>Banco de Dados II</option>
 								<option>Eng. Software I</option>
@@ -42,11 +42,11 @@
 						</div>
 						<div class="form-group col-sm-6">
 							<label for="inputArquivo">Submeta um atestado</label>
-							<input type="file" class="form-control form-control-sm" name="inputArquivo" placeholder="Atestado" required>
+							<input type="file" class="form-control form-control-sm" name="inputArquivo" placeholder="Atestado" required="required">
 						</div>
 						<div class="form-group col-sm-6">
 							<label for="inputAvaliacao">Informe a avaliação perdida</label>
-							<input type="text" class="form-control" name="inputAvaliacao" placeholder="Avaliação" required>
+							<input type="text" class="form-control" name="inputAvaliacao" placeholder="Avaliação" required="required" required pattern="[^0-9]+$" maxlength="120" minlength="3" title="Somente caracteres">
 						</div>
 					</div>
 					<div class="text-center">

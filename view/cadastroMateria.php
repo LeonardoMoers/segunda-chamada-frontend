@@ -26,28 +26,28 @@
 			</div>
 		</header>
 
-		<article class="row justify-content-center ml-0 mr-0">
+		<article class="row justify-content-center ml-0 mr-0 content">
 			<div class="col-auto col-sm-12 col-md-10 col-lg-8 col-xl-8">
 
 				<form>
 					<div class="form-group">
 						<label for="inputMateria">Insira o nome da Matéria</label>
-						<input type="text" name="inputMateria" class="form-control" placeholder="Matéria" required>
+						<input type="text" name="inputMateria" class="form-control" placeholder="Matéria" required="required" pattern="[a-z\s]+$">
 					</div>
 
 					<div class="form-group">
 						<label for="inputHorario">Insira o Horário</label>
-						<input type="time" name="inputHorario" class="form-control" required>
+						<input type="time" name="inputHorario" class="form-control" required="required" pattern="[0-9]{2}:[0-9]{2} [0-9]{2}$" >
 					</div>
 
 					<div class="form-group">
 						<label for="inputData">Insira a Data</label>
-						<input type="date" name="inputData" class="form-control" required>
+						<input type="date" name="inputData" class="form-control" required="required" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$">
 					</div>
 
 					<div class="form-group">
 						<label for="inputSemestre">Selecione o Semestre</label>
-						<select name="inputSemestre" class="form-control">
+						<select name="inputSemestre" class="form-control" required="required">
 							<option>...</option>
 						</select>
 					</div>
@@ -92,7 +92,7 @@
 	</section>
 
 
-	<footer>
+	<footer class="footer">
 		<?php include '../template/footer.html' ?>	
 	</footer>
 </body>

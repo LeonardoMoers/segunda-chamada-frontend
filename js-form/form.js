@@ -18,7 +18,7 @@ function validateForm(data) {
 		alert('Por favor preencha o campo password.');
 		return false;
 	}
-	if(!conf_password) {
+	if(conf_password!=password) {
 		alert('Por favor preencha o campo de confirmação de senha.');
 		return false;
 	}

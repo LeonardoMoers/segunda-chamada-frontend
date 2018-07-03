@@ -26,7 +26,7 @@
 				<form>
 					<div class="form-group">
 						<label for="inputNome">Insira o semestre</label>
-						<input type="text" name="Nome" placeholder="Nome" class="form-control" required>
+						<input type="text" name="Nome" placeholder="Nome" class="form-control" required="required" required pattern="[^0-9]+$" maxlength="120" minlength="3" title="Somente caracteres">
 					</div>
 					<div class="mt-4 text-center">
 						<button type="submit" name="inputCadastro" class="btn btn-success">CADASTRAR</button>

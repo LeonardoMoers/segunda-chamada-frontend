@@ -26,11 +26,11 @@
     			<form>
     				<div class="form-group">
     					<label for="inputNome">Insira o nome da Prova</label>
-    					<input type="text" name="Nome" placeholder="Nome" class="form-control" required>
+    					<input type="text" name="Nome" placeholder="Nome" class="form-control" required="required" required pattern="[^0-9]+$" maxlength="120" minlength="3" title="Somente caracteres">
     				</div>
     				<div class="form-group">
     					<label for="inputData">Selecione a materia:</label>
-    					<select class="form-control">
+    					<select class="form-control" required="required">
     						<option>...</option>
     					</select>
     				</div>
